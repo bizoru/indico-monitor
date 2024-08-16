@@ -1,0 +1,10 @@
+apiVersion: v2
+name: indico-monitor
+description: A Helm chart for monitoring Kubernetes pods.
+
+version: 0.0.1
+appVersion: "0.0.1"
+
+maintainers:
+  - name: Steven Sierra
+    email: ingenieria.sierra@gmail.com

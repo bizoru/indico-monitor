@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: indico-monitor
+  tag: latest
+  pullPolicy: Never # This because we are using a local image
+
+serviceAccount:
+  name: indico-monitor-sa
+
+monitor:
+  pod_status: "Running"
